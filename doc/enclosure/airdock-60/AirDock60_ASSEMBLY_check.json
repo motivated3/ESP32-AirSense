@@ -1,0 +1,874 @@
+{
+  "parts": {
+    "mount": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2357.0134,
+      "bbox_mm": [
+        37.6,
+        24.3321,
+        40.1443
+      ]
+    },
+    "bay": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4164.2856,
+      "bbox_mm": [
+        37.6,
+        34.7853,
+        12.6
+      ]
+    },
+    "tray": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 2127.6966,
+      "bbox_mm": [
+        37.2,
+        35.3359,
+        7.5
+      ]
+    }
+  },
+  "intersections": {
+    "mount_bay_mm3": 0.0,
+    "mount_tray_mm3": 0.0,
+    "bay_tray_mm3": 0.0,
+    "mount_M2x8_mm3": 0.0,
+    "mount_M2nut_mm3": 0.0,
+    "bay_M2x8_mm3": 0.0,
+    "bay_M2nut_mm3": 0.0,
+    "tray_M2x8_mm3": 0.0,
+    "tray_M2nut_mm3": 0.0
+  },
+  "modules": {
+    "SCD41": {
+      "mount": 0.0,
+      "bay": 0.0,
+      "tray": 0.0
+    },
+    "SFA40": {
+      "mount": 0.0,
+      "bay": 0.0,
+      "tray": 0.0
+    }
+  },
+  "backing_vents": [
+    {
+      "local_x_mm": -10.5,
+      "blocked_mm3": 0.0
+    },
+    {
+      "local_x_mm": -7.5,
+      "blocked_mm3": 0.0
+    },
+    {
+      "local_x_mm": -4.5,
+      "blocked_mm3": 0.0
+    },
+    {
+      "local_x_mm": -1.5,
+      "blocked_mm3": 0.0
+    },
+    {
+      "local_x_mm": 1.5,
+      "blocked_mm3": 0.0
+    },
+    {
+      "local_x_mm": 4.5,
+      "blocked_mm3": 0.0
+    },
+    {
+      "local_x_mm": 7.5,
+      "blocked_mm3": 0.0
+    },
+    {
+      "local_x_mm": 10.5,
+      "blocked_mm3": 0.0
+    }
+  ],
+  "backing_and_gap": {
+    "plate_thickness_mm": 1.2,
+    "screw_seat_q_mm": 3.0,
+    "normal_gap_mm": 1.0,
+    "horizontal_gap_mm": 1.1547005383792515,
+    "front_skin_probes": [
+      {
+        "world_xz_mm": [
+          -18,
+          7
+        ],
+        "front_skin_probe_mm3": 0.0023094010767583744
+      },
+      {
+        "world_xz_mm": [
+          -18,
+          11
+        ],
+        "front_skin_probe_mm3": 0.00230940107675834
+      },
+      {
+        "world_xz_mm": [
+          18,
+          7
+        ],
+        "front_skin_probe_mm3": 0.002309401076758453
+      },
+      {
+        "world_xz_mm": [
+          18,
+          11
+        ],
+        "front_skin_probe_mm3": 0.0023094010767583475
+      }
+    ],
+    "bay_material_in_gap_mm3": 0.0
+  },
+  "front_mating_rim": {
+    "shoulder_q_mm": 1.4,
+    "rim_under_plate_mm": 0.8,
+    "red_edge_total_thickness_mm": 2.0,
+    "excess_rim_material_mm3": 0.0,
+    "lip_insertion_mm": 0.8,
+    "rim_probes": [
+      {
+        "local_xy_mm": [
+          18,
+          0
+        ],
+        "missing_mm3": 0.0
+      },
+      {
+        "local_xy_mm": [
+          -18,
+          0
+        ],
+        "missing_mm3": 0.0
+      },
+      {
+        "local_xy_mm": [
+          0,
+          21.8
+        ],
+        "missing_mm3": 0.0
+      },
+      {
+        "local_xy_mm": [
+          5,
+          -21.8
+        ],
+        "missing_mm3": 0.0
+      }
+    ],
+    "locating_tabs": [
+      {
+        "definition": {
+          "name": "left_upper",
+          "axis": "X",
+          "side": -1,
+          "range": [
+            6,
+            11
+          ]
+        },
+        "missing_mm3": 0.0
+      },
+      {
+        "definition": {
+          "name": "left_lower",
+          "axis": "X",
+          "side": -1,
+          "range": [
+            -11,
+            -6
+          ]
+        },
+        "missing_mm3": 0.0
+      },
+      {
+        "definition": {
+          "name": "right_upper",
+          "axis": "X",
+          "side": 1,
+          "range": [
+            6,
+            11
+          ]
+        },
+        "missing_mm3": 0.0
+      },
+      {
+        "definition": {
+          "name": "right_lower",
+          "axis": "X",
+          "side": 1,
+          "range": [
+            -13,
+            -8
+          ]
+        },
+        "missing_mm3": 0.0
+      },
+      {
+        "definition": {
+          "name": "top_center",
+          "axis": "Y",
+          "side": 1,
+          "range": [
+            -3,
+            3
+          ]
+        },
+        "missing_mm3": 0.0
+      },
+      {
+        "definition": {
+          "name": "bottom_center",
+          "axis": "Y",
+          "side": -1,
+          "range": [
+            -8,
+            -3
+          ]
+        },
+        "missing_mm3": 0.0
+      }
+    ],
+    "front_shell_physical_fit_verified": false
+  },
+  "extra_backing_above_stand_mm3": 0.0,
+  "original_screw_bearing_lands": [
+    {
+      "old_xy": [
+        -12,
+        -18
+      ],
+      "missing_bearing_mm3": 0.0
+    },
+    {
+      "old_xy": [
+        -12,
+        18
+      ],
+      "missing_bearing_mm3": 0.0
+    },
+    {
+      "old_xy": [
+        12,
+        -18
+      ],
+      "missing_bearing_mm3": 0.0
+    },
+    {
+      "old_xy": [
+        12,
+        18
+      ],
+      "missing_bearing_mm3": 0.0
+    }
+  ],
+  "sensor_bay_roof_grilles": [
+    {
+      "world_xy_mm": [
+        -14,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        -11,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        -8,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        -5,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        -2,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        2,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        5,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        8,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        11,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    },
+    {
+      "world_xy_mm": [
+        14,
+        27.5
+      ],
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0,
+        "tray": 0.0
+      }
+    }
+  ],
+  "grille_limitation": "Through-open to the sensor cavity; airflow and thermal improvement require measurement.",
+  "reused_R8": {
+    "mount": 0.0,
+    "bay": 0.0,
+    "tray": 0.0
+  },
+  "original_screw_tool_paths": [
+    {
+      "old_xy": [
+        -12,
+        -18
+      ],
+      "tool_diameter_mm": 4,
+      "blocked_mm3": 0.0
+    },
+    {
+      "old_xy": [
+        -12,
+        18
+      ],
+      "tool_diameter_mm": 4,
+      "blocked_mm3": 0.0
+    },
+    {
+      "old_xy": [
+        12,
+        -18
+      ],
+      "tool_diameter_mm": 4,
+      "blocked_mm3": 0.0
+    },
+    {
+      "old_xy": [
+        12,
+        18
+      ],
+      "tool_diameter_mm": 4,
+      "blocked_mm3": 0.0
+    }
+  ],
+  "split_wire_channel_1p6mm_probe": {
+    "mount": 0.0,
+    "bay": 0.0,
+    "tray": 0.0
+  },
+  "pre_soldered_wire_bottom_entry_before_tray": [
+    {
+      "bundle_center_world_z_mm": -3,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": -1,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 0,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 1,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 2,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 3,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 4,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 5,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 6,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 7,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    },
+    {
+      "bundle_center_world_z_mm": 8.5,
+      "blocked_mm3": {
+        "mount": 0.0,
+        "bay": 0.0
+      }
+    }
+  ],
+  "whole_bay_removal": [
+    {
+      "rearward_mm": 0,
+      "intersections_mm3": {
+        "bay": 0.0,
+        "tray": 0.0,
+        "SCD41": 0.0,
+        "SFA40": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.1,
+      "intersections_mm3": {
+        "bay": 0.0,
+        "tray": 0.0,
+        "SCD41": 0.0,
+        "SFA40": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.25,
+      "intersections_mm3": {
+        "bay": 0.0,
+        "tray": 0.0,
+        "SCD41": 0.0,
+        "SFA40": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.5,
+      "intersections_mm3": {
+        "bay": 0.0,
+        "tray": 0.0,
+        "SCD41": 0.0,
+        "SFA40": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1,
+      "intersections_mm3": {
+        "bay": 0.0,
+        "tray": 0.0,
+        "SCD41": 0.0,
+        "SFA40": 0.0
+      }
+    },
+    {
+      "rearward_mm": 2,
+      "intersections_mm3": {
+        "bay": 0.0,
+        "tray": 0.0,
+        "SCD41": 0.0,
+        "SFA40": 0.0
+      }
+    },
+    {
+      "rearward_mm": 4,
+      "intersections_mm3": {
+        "bay": 0.0,
+        "tray": 0.0,
+        "SCD41": 0.0,
+        "SFA40": 0.0
+      }
+    },
+    {
+      "rearward_mm": 8,
+      "intersections_mm3": {
+        "bay": 0.0,
+        "tray": 0.0,
+        "SCD41": 0.0,
+        "SFA40": 0.0
+      }
+    }
+  ],
+  "tray_removal_with_bay_and_mount_held": [
+    {
+      "rearward_mm": 0,
+      "down_mm": 0,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.1,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.2,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.3,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.4,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.5,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.6,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.7,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.8,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 0.9,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 0.1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 0.2,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 0.5,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 1,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 2,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 4,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 8,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 12,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    },
+    {
+      "rearward_mm": 1.0,
+      "down_mm": 16,
+      "intersections_mm3": {
+        "tray": 0.0,
+        "tray_mount": 0.0,
+        "SCD41": 0.0,
+        "SCD41_mount": 0.0,
+        "SFA40": 0.0,
+        "SFA40_mount": 0.0
+      }
+    }
+  ],
+  "nut_insertion_before_bay_installed": [
+    {
+      "rearward_mm": 0,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 0.1,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 0.25,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 0.5,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 1,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 2,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 3,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 4,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 5,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 6,
+      "blocked_by_mount_mm3": 0.0
+    },
+    {
+      "rearward_mm": 8,
+      "blocked_by_mount_mm3": 0.0
+    }
+  ],
+  "installed_bay_nut_escape_blocked_mm3": 5.090248722402264,
+  "physical_fit_verified": false,
+  "mechanical_strength_verified": false,
+  "thermal_performance_verified": false,
+  "note": "Sampled assembly sweeps and ideal hardware envelopes, not a physical fit or continuous swept-solid proof."
+}

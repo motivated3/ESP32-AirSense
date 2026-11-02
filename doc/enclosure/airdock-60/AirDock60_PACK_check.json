@@ -1,0 +1,160 @@
+{
+  "project": "AirDock60_GEOMETRY_BambuStudio.3mf",
+  "sha256": "3c8cff7f480a51549ad9a606ff2da6e4c8af4f2daf68f0b9d726f177682668d1",
+  "source_template": "doc/enclosure/r12-continuous-round/support-interface/R12_PETG_LOCAL_SUPPORT_INTERFACE_BambuStudio.3mf",
+  "source_template_sha256": "bbc1e80b59f95322665bfdb72559c5310853402e61a0219604a05d2974565185",
+  "parts": [
+    {
+      "part": "MOUNT",
+      "stl": "AirDock60_MOUNT.stl",
+      "stl_sha256": "6382f55394dad3e27aa360a9618b63b7008ac4b31ee0587d3aff2ce90b81d08a",
+      "mesh_id": 1,
+      "wrapper_id": 2,
+      "mesh_member": "3D/Objects/object_1.model",
+      "rotation_world_x_deg": 120.0,
+      "baked_z_lift_mm": 0.8500045480064635,
+      "build_translation_mm": [
+        120.0,
+        160,
+        0
+      ],
+      "world_bounds_mm": [
+        [
+          101.2,
+          138.8
+        ],
+        [
+          112.28852259704485,
+          157.48852451545866
+        ],
+        [
+          0.0,
+          12.172436412341924
+        ]
+      ],
+      "vertices": 6927,
+      "triangles": 13906,
+      "closed_manifold": true
+    },
+    {
+      "part": "BAY",
+      "stl": "AirDock60_BAY.stl",
+      "stl_sha256": "316d4034792f13bb0f63d91c5bdab30dae888dbb9f5860cb060c35db015eaf28",
+      "mesh_id": 3,
+      "wrapper_id": 4,
+      "mesh_member": "3D/Objects/object_2.model",
+      "rotation_world_x_deg": 180.0,
+      "baked_z_lift_mm": 13.999999999999998,
+      "build_translation_mm": [
+        180.0,
+        160,
+        0
+      ],
+      "world_bounds_mm": [
+        [
+          161.2,
+          198.8
+        ],
+        [
+          121.0,
+          155.78534
+        ],
+        [
+          0.0,
+          12.600000000000003
+        ]
+      ],
+      "vertices": 14625,
+      "triangles": 29378,
+      "closed_manifold": true
+    },
+    {
+      "part": "TRAY",
+      "stl": "AirDock60_TRAY.stl",
+      "stl_sha256": "3947d0a2db1c1f317ce95265e743c912cadbfd51f1c4b69adc7411e71326622d",
+      "mesh_id": 5,
+      "wrapper_id": 6,
+      "mesh_member": "3D/Objects/object_3.model",
+      "rotation_world_x_deg": 0.0,
+      "baked_z_lift_mm": -0.0,
+      "build_translation_mm": [
+        240.0,
+        160,
+        0
+      ],
+      "world_bounds_mm": [
+        [
+          221.4,
+          258.6
+        ],
+        [
+          163.4641,
+          198.8
+        ],
+        [
+          0.0,
+          7.5
+        ]
+      ],
+      "vertices": 3847,
+      "triangles": 7694,
+      "closed_manifold": true
+    }
+  ],
+  "independent_object_count": 3,
+  "old_support_enforcers_copied": false,
+  "mount_print_orientation": "World X +120 degrees; front locating lip tips down, backing underside 1.6 mm above bed on automatic supports",
+  "mount_backing_underside_above_bed_mm": 1.6,
+  "mount_object_settings": {
+    "brim_type": "outer_only",
+    "brim_width": "5",
+    "brim_object_gap": "0.1"
+  },
+  "printer": "Bambu Lab H2D 0.4 nozzle",
+  "process": "0.20mm Standard @BBL H2D",
+  "plate": "Textured PEI Plate",
+  "material_ids": [
+    "GFG99",
+    "GFS05"
+  ],
+  "material_names": [
+    "Generic PETG @BBL H2D",
+    "Bambu Support For PLA/PETG @BBL H2D"
+  ],
+  "material_map": [
+    "2",
+    "1"
+  ],
+  "filament_is_support": [
+    "0",
+    "1"
+  ],
+  "nozzle_temperature_c": [
+    "255",
+    "255",
+    "255",
+    "220",
+    "210",
+    "210"
+  ],
+  "textured_pei_temperature_c": [
+    "70",
+    "60"
+  ],
+  "physical_nozzles": {
+    "right": "PETG body and support skeleton",
+    "left": "Support for PLA/PETG interface"
+  },
+  "support_type": "normal(auto)",
+  "support_style": "snug",
+  "support_filament": "1",
+  "support_interface_filament": "2",
+  "prime_tower_enabled": true,
+  "automatic_support_contact_regions_reviewed": false,
+  "no_old_cache_or_toolpaths": true,
+  "sliced": false,
+  "physical_fit_verified": false,
+  "printer_contacted": false,
+  "print_sent": false,
+  "limitations": "Automatic snug supports hold the flat backing above the bed. The 5 mm brim is a requested setting, not a generated-path claim. Fresh slicing/path review and physical adhesion, fit and support removal remain separate checks."
+}

@@ -1,0 +1,42 @@
+title: 空气检测
+views:
+  - title: 分钟记录
+    path: overview
+    icon: mdi:air-filter
+    cards:
+      - type: markdown
+        content: |
+          开车时每分钟上传一条，保存平均、最高、最低值，分钟记录长期保留。
+
+          停车断电期间没有测量，不补零、不连成持续采样。突然断电时，最后尚未上传的一小段可能丢失。
+      - type: entities
+        title: 空气检测仪 · 最近一分钟
+        show_header_toggle: false
+        state_color: true
+        entities:
+          - entity: binary_sensor.air_monitor_01_online
+            name: 设备在线
+          - entity: sensor.air_monitor_01_co2
+            name: CO₂ 平均
+          - entity: sensor.air_monitor_01_hcho
+            name: 甲醛平均
+          - entity: sensor.air_monitor_01_temperature
+            name: 温度平均
+          - entity: sensor.air_monitor_01_humidity
+            name: 湿度平均
+      - type: custom:air-monitor-minute-history
+        device_id: air_monitor_01
+        metric: co2_ppm
+        title: CO₂ · 分钟记录
+      - type: custom:air-monitor-minute-history
+        device_id: air_monitor_01
+        metric: hcho_ppb
+        title: 甲醛 · 分钟记录
+      - type: custom:air-monitor-minute-history
+        device_id: air_monitor_01
+        metric: temperature_c
+        title: 温度 · 分钟记录
+      - type: custom:air-monitor-minute-history
+        device_id: air_monitor_01
+        metric: humidity_pct
+        title: 湿度 · 分钟记录

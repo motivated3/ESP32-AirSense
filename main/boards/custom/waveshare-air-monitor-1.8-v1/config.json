@@ -1,0 +1,19 @@
+{
+    "manufacturer": "custom",
+    "type": "waveshare-air-monitor-1.8-v1",
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "waveshare-air-monitor-1.8-v1",
+            "sdkconfig_append": [
+                "CONFIG_USE_DEFAULT_MESSAGE_STYLE=y",
+                "CONFIG_LV_USE_CHART=y",
+                "CONFIG_LV_DEF_REFR_PERIOD=16",
+                "CONFIG_LV_USE_SNAPSHOT=n",
+                "CONFIG_BOOTLOADER_SKIP_VALIDATE_ALWAYS=n",
+                "CONFIG_BOOTLOADER_SKIP_VALIDATE_ON_POWER_ON=n",
+                "CONFIG_BOOTLOADER_SKIP_VALIDATE_IN_DEEP_SLEEP=n"
+            ]
+        }
+    ]
+}

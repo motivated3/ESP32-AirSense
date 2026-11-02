@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "strings_file": "ui_strings.json",
+  "text_extra": "°·₂—−…，。！？：；（）【】、“”",
+  "chat_extra": "�",
+  "numeric_characters": "0123456789.+-−—°C%",
+  "sources": {
+    "noto_regular": {
+      "path": "fonts/NotoSansSC-Regular.otf",
+      "sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9",
+      "license": "OFL-1.1",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/523d033d6cb47f4a80c58a35753646f5c3608a78/Sans/SubsetOTF/SC/NotoSansSC-Regular.otf"
+    },
+    "noto_medium": {
+      "path": "fonts/NotoSansSC-Medium.otf",
+      "sha256": "7633f5a016d4dd95e685a69633d818aabc4644c4b08e26bd35b1b30c45ed5dda",
+      "license": "OFL-1.1",
+      "url": "https://raw.githubusercontent.com/notofonts/noto-cjk/523d033d6cb47f4a80c58a35753646f5c3608a78/Sans/SubsetOTF/SC/NotoSansSC-Medium.otf"
+    },
+    "roboto": {
+      "path": "fonts/RobotoCondensed-wght.ttf",
+      "sha256": "dace262afcee68a5276f200d8026c57221735c0118ab5fda8c2c0d3dc409a8d0",
+      "license": "OFL-1.1",
+      "url": "https://raw.githubusercontent.com/google/fonts/45e3d5269e4a17d823f6d84470bc084dc5ae46f6/ofl/robotocondensed/RobotoCondensed%5Bwght%5D.ttf"
+    }
+  },
+  "profiles": [
+    {
+      "name": "font_air_text_18",
+      "source": "noto_regular",
+      "fallback": "roboto",
+      "size": 18,
+      "charset": "text"
+    },
+    {
+      "name": "font_air_text_20",
+      "source": "noto_medium",
+      "fallback": "roboto",
+      "size": 20,
+      "charset": "text"
+    },
+    {
+      "name": "font_air_chat_18",
+      "source": "noto_regular",
+      "fallback": "roboto",
+      "size": 18,
+      "bpp": 2,
+      "charset": "chat"
+    },
+    {
+      "name": "font_air_digits_28",
+      "source": "roboto",
+      "weight": 600,
+      "size": 28,
+      "charset": "numeric"
+    },
+    {
+      "name": "font_air_digits_36",
+      "source": "roboto",
+      "weight": 600,
+      "size": 36,
+      "charset": "numeric"
+    },
+    {
+      "name": "font_air_digits_42",
+      "source": "roboto",
+      "weight": 600,
+      "size": 42,
+      "charset": "numeric"
+    },
+    {
+      "name": "font_air_digits_64",
+      "source": "roboto",
+      "weight": 600,
+      "size": 64,
+      "charset": "numeric"
+    },
+    {
+      "name": "font_air_digits_88",
+      "source": "roboto",
+      "weight": 600,
+      "size": 88,
+      "charset": "numeric"
+    },
+    {
+      "name": "font_air_digits_120",
+      "source": "roboto",
+      "weight": 600,
+      "size": 120,
+      "charset": "numeric"
+    }
+  ]
+}
+
